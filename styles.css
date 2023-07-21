@@ -1,0 +1,48 @@
+body{
+    background-color: grey;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: turquoise;
+}
+img{
+    position: absolute;
+    left:310px; top:100px;
+     height :"100px";
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+.eyes{
+    position: absolute;
+    top: 240px;
+    transform: translateY(-50%);
+    width: 90%;
+    text-align: center;
+    left: 97px;
+    
+}
+
+.eye{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    display: inline-block;
+    margin: 3px;
+    border:2px solid#000;
+    border-radius: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ball{
+    width: 10px;
+    height: 10px;
+    background: #000;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+}
